@@ -1,0 +1,4 @@
+v 0.1 
+- Split library from older project
+- Created package
+- Wrote some docs

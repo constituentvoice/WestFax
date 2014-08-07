@@ -21,24 +21,24 @@ Usage requires a WestFax account.
 
 ## Methods
 
-### add\_number(_phone number_)
+### add_number(phone_number)
 
 Adds a number to the send the fax to. Mulitple numbers can be added.
 send() will raise _westfax.NoRecipients_ if no valid numbers are found.
 
-### set\_billing\_code(_billing code_)
+### set_billing_code(billing_code)
 
 Sets an optional billing code to track billing for the message in the WestFax dashboard
 
-### set\_job\_name(_job name_)
+### set_job_name(job_name)
 
 Sets an optional job name to identify the message in the WestFax dashboard
 
-### set\_header(_header_)
+### set_header(header)
 
 Sets the top header on the fax. (Sent with the fax. Often a company name or subject message)
 
-### set\_content(_content_)
+### set_content(content)
 
 Text or HTML content of the message. 
 send() will raise westfax.MissingFaxContent() if no content was added to the message.
@@ -67,5 +67,5 @@ The error message is returned as the exception message.
 
 ## TODO
 
-* verify phone number validity on add\_number
+* verify phone number validity on add_number
 * Parse the error message from WestFax to raise more useful exceptions
