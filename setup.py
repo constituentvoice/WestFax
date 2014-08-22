@@ -4,7 +4,7 @@ import os
 
 setup(
 	name='WestFax',
-	version='0.1.1',
+	version='0.1.2',
 	author='Chris Brown',
 	author_email='chris.brown@nwyc.com',
 	packages=['westfax'],
