@@ -10,7 +10,7 @@ setup(
 	packages=['westfax'],
 	url='https://github.com/constituentvoice/WestFax',
 	license='BSD',
-	description='Python wrapper for the WestFax API'
+	description='Python wrapper for the WestFax API',
 	long_description=open('README.rst').read(),
 	install_requires=['requests >= 1.0.0']
 )
