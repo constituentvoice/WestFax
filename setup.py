@@ -4,13 +4,13 @@ import os
 
 setup(
 	name='WestFax',
-	version='0.1.0',
+	version='0.1.1',
 	author='Chris Brown',
 	author_email='chris.brown@nwyc.com',
 	packages=['westfax'],
 	url='https://github.com/constituentvoice/WestFax',
 	license='BSD',
 	description='Python wrapper for the WestFax API'
-	long_description=open('docs/README.txt').read(),
+	long_description=open('README.rst').read(),
 	install_requires=['requests >= 1.0.0']
 )
